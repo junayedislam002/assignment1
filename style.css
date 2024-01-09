@@ -8,7 +8,7 @@ body {
 }
 .section {
     width: 1320px;
-    margin: 30px auto;
+    margin:  50px auto 0;
 }
 
 /* header design */
@@ -224,4 +224,51 @@ line-height: 30px;
     font-weight: 600;
     text-align: center;
     margin-left: -5px;
+}
+/*FOOTER SECTION*/
+footer {
+    background: #070211;
+    margin-top: 80px;
+    padding: 40px 0;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+.footer-address{
+    width: 350px;
+    margin-bottom: 40px;
+    line-height: 33px;
+    
+}
+.footer-contact {
+    margin-bottom: 30px;
+}
+.contact-img {
+    display: flex  ;
+    margin: 10px 50px;
+}
+.contact-img img {
+    padding-right: 10px;
+}
+.footer-text {
+    border-bottom: 1px solid rgb(60, 58, 58);
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.footer-icons {
+    text-align: center;
+    border-bottom: 1px solid  rgb(60, 58, 58);
+    padding-bottom: 20px;
+}
+.footer-icons img{
+    padding: 10px 15px;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin: 40px 0 60px;
+    font-size: 18px;
 }
